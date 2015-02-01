@@ -27,9 +27,9 @@ makeCacheMatrix <- function (x = matrix()) {
     x
   }
   
-  setinverse <- function (mean) {
+  setinverse <- function (new_inverse) {
     # message("setting inverse...")
-    inverse <<- mean
+    inverse <<- new_inverse
   }
   
   getinverse <- function () {
